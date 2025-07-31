@@ -1,4 +1,4 @@
-# Spotify Playlist to FLAC Downloader 🎵
+# FLAC Track Downloader 🎵
 
 A Python script that automatically downloads all songs from a Spotify playlist in high-quality FLAC format.
 
