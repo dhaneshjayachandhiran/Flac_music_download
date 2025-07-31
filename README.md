@@ -1,4 +1,4 @@
-# FLAC Track Downloader 🎵
+# Spotify Playlist to FLAC Downloader 🎵
 
 A Python script that automatically downloads all songs from a Spotify playlist in high-quality FLAC format.
 
@@ -106,7 +106,7 @@ python your_script_name.py
 The script will now start working. You'll see status updates directly in your terminal.
 
 ---
-### Optional: Running in Headless Mode
+### 💡 Optional: Running in Headless Mode
 
 If you don't want the Chrome browser window to pop up, you can run the script invisibly. Open the Python script and find this line in the `setup_browser` function:
 
@@ -115,7 +115,3 @@ If you don't want the Chrome browser window to pop up, you can run the script in
 #options.add_argument("--headless=new")
 ```
 Simply remove the `#` from the beginning of the second line to enable it.
-
----
-
-Happy Listening! 😊❤️🎶
