@@ -72,6 +72,9 @@ To allow the script to read your playlist, you need special "keys" from Spotify.
 
 ### Step 2: Edit the Python Script
 
+> **💡 Don't have a Spotify playlist?**
+> You can easily transfer your playlist from other services like Apple Music or YouTube Music to Spotify using the free [**Tune My Music**](https://www.tunemymusic.com/transfer) website. Once transferred, you can get the Spotify playlist link to use below.
+
 Open the `Selenium_script.py` file in a text editor. You need to change the following lines at the top:
 
 ```python
