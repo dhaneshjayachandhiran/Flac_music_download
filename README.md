@@ -37,7 +37,7 @@ Follow these steps carefully to get the script running on your own computer.
 You need to open a command window to install the required tools.
 * **On Windows**: Click the Start menu and type `cmd` or `powershell`, then press Enter.
 * **On macOS**: Open Launchpad and search for `Terminal`.
-* **On Linux (Pop!_OS)**: Press the Super key (Windows key) and type `Terminal`, then press Enter.
+* **On Linux**: Press the Super key (Windows key) and type `Terminal`, then press Enter.
 
 ### Step 3: Navigate to the Project Folder
 
