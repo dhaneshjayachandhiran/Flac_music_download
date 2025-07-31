@@ -30,8 +30,8 @@ ELEMENT_WAIT_TIMEOUT = 30
 your can get the client_id,key on here "https://developer.spotify.com/dashboard" '''
 
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id='Past your client id here',
-    client_secret='Past your client secret key here'
+    client_id='YOUR_CLIENT_ID_HERE',
+    client_secret='YOUR_CLIENT_SECRET_HERE'
 ))
 
 
