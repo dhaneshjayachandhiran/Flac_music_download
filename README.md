@@ -115,3 +115,7 @@ If you don't want the Chrome browser window to pop up, you can run the script in
 #options.add_argument("--headless=new")
 ```
 Simply remove the `#` from the beginning of the second line to enable it.
+
+---
+
+Happy Listening! 🎶
