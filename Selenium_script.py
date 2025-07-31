@@ -28,9 +28,10 @@ ELEMENT_WAIT_TIMEOUT = 30
 
 '''Here change the client_id and client_secret with your spotify account 
 your can get the client_id,key on here "https://developer.spotify.com/dashboard" '''
+
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id='3ebac30f04b7473ab11da8e3550710ff',
-    client_secret='48232116171e44f991d2b66b791a5471'
+    client_id='Past your client id here',
+    client_secret='Past your client secret key here'
 ))
 
 
