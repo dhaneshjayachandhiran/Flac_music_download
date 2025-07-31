@@ -1,6 +1,8 @@
 # Spotify Playlist to FLAC Downloader 🎵
 
-This is a simple but powerful Python script that automatically downloads all the songs from a Spotify playlist in high-quality FLAC format. It acts like a robot assistant that does all the tedious work for you.
+A Python script that automatically downloads all songs from a Spotify playlist in high-quality FLAC format.
+
+This script automates downloads from the [**us.qobuz.squid.wtf**](https://us.qobuz.squid.wtf/) website. While you can visit the site to download single songs manually, this tool is designed to save you hours of work by automatically downloading entire Spotify playlists. It reads your playlist, finds each song on the website, and downloads it for you, making it perfect for bulk downloading.
 
 ---
 ## Features ✨
@@ -8,19 +10,8 @@ This is a simple but powerful Python script that automatically downloads all the
 * **Full Playlist Support**: Fetches every song from any public Spotify playlist, even those with hundreds of tracks.
 * **High-Quality Downloads**: Saves songs in the FLAC format for the best audio quality.
 * **Smart Duplicate Skipping**: Automatically checks your music folder and skips songs you've already downloaded to save time.
-* **Failure Logging**: If any song fails to download, it's automatically recorded in a `download_log.csv` file so you can easily see what was missed.
+* **Failure Logging**: If any song fails to download, it's automatically recorded in a `download_log.csv` file.
 * **Headless Mode**: Can run completely in the background without a visible browser window.
-
----
-## How It Works (A Simple Explanation)
-
-This script works by automating the steps you would normally take to find and download a song:
-
-1.  **Reads Your Playlist**: It connects to Spotify's system to get the list of all song titles and artists from the playlist you provide.
-2.  **Checks Your Library**: It looks inside your music folder to see which songs you already have.
-3.  **Visits a Website**: For each new song, it opens a special website that has a library of high-quality music.
-4.  **Searches and Downloads**: It automatically types the song title and artist into the search bar, finds the correct track, and clicks the download button.
-5.  **Waits and Repeats**: It waits for the download to finish and then moves on to the next song until the entire playlist is complete.
 
 ---
 ## Requirements 📋
