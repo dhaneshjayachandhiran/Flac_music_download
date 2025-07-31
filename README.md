@@ -106,7 +106,7 @@ python your_script_name.py
 The script will now start working. You'll see status updates directly in your terminal.
 
 ---
-### 💡 Optional: Running in Headless Mode
+### Optional: Running in Headless Mode
 
 If you don't want the Chrome browser window to pop up, you can run the script invisibly. Open the Python script and find this line in the `setup_browser` function:
 
@@ -118,4 +118,4 @@ Simply remove the `#` from the beginning of the second line to enable it.
 
 ---
 
-Happy Listening! 🎶
+Happy Listening! 😊❤️🎶
