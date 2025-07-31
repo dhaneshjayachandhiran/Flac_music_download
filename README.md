@@ -1,4 +1,4 @@
-# Spotify Playlist to FLAC Downloader 🎵
+# FLAC Track Downloader 🎵
 
 A Python script that automatically downloads all songs from a Spotify playlist in high-quality FLAC format.
 
@@ -28,9 +28,9 @@ Follow these steps carefully to get the script running on your own computer.
 
 ### Step 1: Download the Code
 
-* On this GitHub page, click the green **`< > Code`** button.
+* On the [**Flac_music_download** GitHub page](https://github.com/dhaneshjayachandhiran/Flac_music_download), click the green **`< > Code`** button.
 * Select **"Download ZIP"**.
-* Unzip the downloaded file to a location you can easily find, like your Desktop.
+* Unzip the downloaded file. It will create a folder named `Flac_music_download-main`.
 
 ### Step 2: Open a Command Window (Terminal)
 
@@ -44,9 +44,8 @@ You need to open a command window to install the required tools.
 In the terminal you just opened, you need to move into the folder you unzipped. Use the `cd` (change directory) command. For example, if the folder is on your Desktop, you would type:
 
 ```bash
-cd Desktop/project-folder-name
+cd Desktop/Flac_music_download-main
 ```
-*(Replace `project-folder-name` with the actual name of the unzipped folder).*
 
 ### Step 4: Install Required Libraries
 
@@ -60,7 +59,7 @@ pip install -r requirements.txt
 ---
 ## 🚀 Configuration and Running the Script
 
-You need to edit one file to tell the script where to save music and which playlist to use.
+You need to edit the script to tell it where to save music and which playlist to use.
 
 ### Step 1: Get Your Spotify API Keys
 
@@ -73,14 +72,16 @@ To allow the script to read your playlist, you need special "keys" from Spotify.
 
 ### Step 2: Edit the Python Script
 
-Open the main Python script file (e.g., `downloader.py`) in a text editor. You need to change the following lines at the top:
+Open the `Selenium_script.py` file in a text editor. You need to change the following lines at the top:
 
 ```python
 # Here u have to choose the download Directory
+# Example for Windows: "C:/Users/YourUser/Music/MyFlacSongs"
+# Example for Linux/Mac: "/home/your_user_name/Music/Flac_songs"
 DOWNLOAD_FOLDER = "/home/your_user_name/Music/Flac_songs"
 
 # Here past your Playlist link
-SPOTIFY_PLAYLIST_URL = "[https://open.spotify.com/playlist/YOUR_PLAYLIST_ID_HERE](https://open.spotify.com/playlist/YOUR_PLAYLIST_ID_HERE)"
+SPOTIFY_PLAYLIST_URL = "YOUR_SPOTIFY_PLAYLIST_URL_HERE"
 
 # --- Spotify Auth ---
 # Copy your keys from the Spotify Developer Dashboard here
@@ -99,19 +100,22 @@ sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
 Go back to your terminal (making sure you are still in the project folder) and run the script with this command:
 
 ```bash
-python your_script_name.py
+python Selenium_script.py
 ```
-*(Replace `your_script_name.py` with the actual name of the Python file).*
 
 The script will now start working. You'll see status updates directly in your terminal.
 
 ---
-### 💡 Optional: Running in Headless Mode
+### Optional: Running in Headless Mode
 
-If you don't want the Chrome browser window to pop up, you can run the script invisibly. Open the Python script and find this line in the `setup_browser` function:
+If you don't want the Chrome browser window to pop up, you can run the script invisibly. Open the `Selenium_script.py` file and find this line in the `setup_browser` function:
 
 ```python
 # To run invisibly in the background, uncomment the next line
 #options.add_argument("--headless=new")
 ```
-Simply remove the `#` from the beginning of the second line to enable it.
+Simply remove the `#` from the beginning of the `options.add_argument...` line to enable it.
+
+---
+
+Happy Listening! 😊❤️🎶
