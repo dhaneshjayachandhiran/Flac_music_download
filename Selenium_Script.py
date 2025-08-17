@@ -15,14 +15,14 @@ import re
 # Configuration
 DOWNLOAD_FOLDER = "/home/dhanesh/Music/Flac_songs"
 CSV_LOG = "data/download_log.csv"
-SPOTIFY_PLAYLIST_URL = "https://open.spotify.com/playlist/2PL4mFQDVLZaUx8Dv5I4cr?si=Gbo74NbzQXm5PYDVmyO27g"
+SPOTIFY_PLAYLIST_URL = "PAST_YOUR_PLAYLIST_HERE"
 DOWNLOAD_TIMEOUT = 300
 ELEMENT_WAIT_TIMEOUT = 30
 
 # Spotify Auth
 sp = spotipy.Spotify(auth_manager=SpotifyClientCredentials(
-    client_id='3ebac30f04b7473ab11da8e3550710ff',
-    client_secret='48232116171e44f991d2b66b791a5471'
+    client_id='YOUR_CLIENT_ID_HERE',
+    client_secret='YOUR_CLIENT_SECRET_HERE'
 ))
 
 
@@ -143,7 +143,7 @@ def setup_browser():
     options.add_argument("--disable-gpu")
     options.add_argument("--window-size=1920,1080")
     options.add_argument("--disable-blink-features=AutomationControlled")
-    options.add_argument("--headless")
+    options.add_argument("--headless")  # Remove or comment this line if you want to see the browser window
     prefs = {
         "download.default_directory": DOWNLOAD_FOLDER,
         "download.prompt_for_download": False,
