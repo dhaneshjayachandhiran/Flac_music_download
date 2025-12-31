@@ -2,7 +2,7 @@
 
 A Python script that automatically downloads all songs from a Spotify playlist in high-quality FLAC format.
 
-This script automates downloads from the [**us.qobuz.squid.wtf**](https://us.qobuz.squid.wtf/) website. While you can visit the site to download single songs manually, this tool is designed to save you hours of work by automatically downloading entire Spotify playlists. It reads your playlist, finds each song on the website, and downloads it for you, making it perfect for bulk downloading.
+This script automates downloads from the [**qobuz.squid.wtf**](https://qobuz.squid.wtf/) website. While you can visit the site to download single songs manually, this tool is designed to save you hours of work by automatically downloading entire Spotify playlists. It reads your playlist, finds each song on the website, and downloads it for you, making it perfect for bulk downloading.
 
 ---
 ## Features ✨
