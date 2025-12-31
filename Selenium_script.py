@@ -170,7 +170,7 @@ def download_song(driver, title, artist):
     """Download a single song with improved reliability"""
     search_query = f"{title} {artist}"
     try:
-        driver.get("https://us.qobuz.squid.wtf/")
+        driver.get("https://qobuz.squid.wtf/") 
         wait = WebDriverWait(driver, ELEMENT_WAIT_TIMEOUT)
         time.sleep(1)
 
